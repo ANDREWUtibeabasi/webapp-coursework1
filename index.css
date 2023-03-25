@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif
 }
-
+/*this is to personanlize the background color*/
 body {
     background-color: grey
 }
@@ -26,7 +26,7 @@ body {
 .navbar .navbar-toggler:focus {
     box-shadow: none
 }
-
+/*this is to for the country section backgroun*/
 .navbar-nav .nav-link.active,
 .border-red {
     border-bottom: 3px solid #1cb736
