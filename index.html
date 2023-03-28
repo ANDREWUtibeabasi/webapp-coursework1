@@ -56,7 +56,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="form-group">
                             <select name="sortBy" v-model="sortBy"
-                                class="form-control p-2 bg-white ps-3 form-select rounded-0 shadow-0 form-control-a form-control-lg">
+                                class="form-control p-2 bg-white ps-3 form-select rounded-0 shadow-0 form-control-a form-control-lg"><!--this is a section is a drop down table that allows the user arrange the items according to the selected format-->
                                 <option>DISPLAYS</option>
                                 <option value="price">Price</option>
                                 <option value="location">Location</option>
@@ -139,7 +139,7 @@
                                             <p class="mb-0">Price: ${{subject.price}}</p>
 
                                             <button class="btn btn-danger"
-                                                v-on:click="removeCartItem(subject.id)"><small>Remove item</small></button>
+                                                v-on:click="removeCartItem(subject.id)"><small>Remove item</small></button><!--this is a button that was created to romeve unwanted item that have been placed in the cart-->
                                         </div>
                                     </div>
                                     <div class="image">
