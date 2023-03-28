@@ -281,7 +281,8 @@
                     }
                     return locationArray.sort(compare);
                 },
-                sortByAva: function (avaArray) {
+                sortByAva: function (avaArray) {/*This code defines a function called sortByAva, which takes an array avaArray as its input parameter. 
+                    The function sorts the input array in ascending order based on the availableInventory property of each object in the array.*/
                     function compare(a, b) {
                         if (a.availableInventory > b.availableInventory)
                             return 1;
